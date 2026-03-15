@@ -25,11 +25,11 @@ Technologies
 
 Live Demo
 
-(Add link here if you deploy the project)
+https://fajhwu0-web.github.io/neuron-ai-chat/
 
 Screenshots
 
-(Add screenshot of the chat interface here)
+![AI Chat](neuron.png)
 
 Project Structure
 
@@ -41,3 +41,18 @@ static/ – CSS and JavaScript
 Purpose
 
 This project was created as a learning example of how a simple AI assistant can be built using Flask and a basic knowledge system.
+
+## How to run the project
+
+1. Install Python
+2. Install Flask
+
+pip install flask
+
+3. Run the server
+
+python app.py
+
+4. Open in browser
+
+http://127.0.0.1:5000
