@@ -1,0 +1,60 @@
+/* Общие настройки страницы */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0b0b0b;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 60px;
+}
+
+/* Контейнер чата */
+.container {
+  background: #111;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 40px;
+  box-shadow: 0 0 15px #333;
+  width: 450px;
+}
+
+/* Поле ввода и кнопка */
+input, button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Поле ввода */
+input {
+  width: 80%;
+  background: #222;
+  color: #eee;
+  text-align: center;
+}
+
+/* Кнопка */
+button {
+  background: #444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Эффект наведения */
+button:hover {
+  background: #666;
+}
+
+/* Ответ нейросети */
+.response {
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  white-space: pre-wrap; /* сохраняет переносы */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Мой ИИ-друг</title>
+
+  <!-- Подключаем CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🤖 Привет! Я твой ИИ-друг</h1>
+
+    <!-- Форма отправки вопроса -->
+    <form method="POST">
+      <!-- Поле для текста -->
+      <input type="text" name="question" placeholder="Задай мне вопрос..." required>
+      <!-- Кнопка -->
+      <button type="submit">Спросить</button>
+    </form>
+
+    <!-- Блок, где показывается ответ -->
+    {% if answer %}
+      <div class="response">{{ answer }}</div>
+    {% endif %}
+  </div>
+</body>
+</html>
